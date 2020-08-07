@@ -162,9 +162,13 @@ footer ul {
 }
 
 footer .footer-left {
+    display: grid;
+    grid-template-columns: 7em 7em 7em 15em;
     justify-content: left;
 }
 footer .footer-right {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
     justify-content: right;
 }
 
